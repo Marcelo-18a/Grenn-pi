@@ -58,7 +58,7 @@ export default function EquipePage() {
                     </div>
                     <div>
                       <CardTitle className="text-2xl">Marcelo Augusto</CardTitle>
-                      <CardDescription className="text-lg">Develop</CardDescription>
+                      <CardDescription className="text-lg">Develop, Design</CardDescription>
                       <div className="flex gap-2 mt-2">
                         <a
                           href="https://github.com/Marcelo-18a"
@@ -78,6 +78,16 @@ export default function EquipePage() {
                         >
                           <Button variant="ghost" size="icon" className="h-8 w-8">
                             <Linkedin className="h-4 w-4" />
+                          </Button>
+                        </a>
+                        <a
+                          href="https://www.instagram.com/sla_marcello?igsh=MXNpanVuN3FycTJuYw=="
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          aria-label="Instagram do Marcelo"
+                        >
+                          <Button variant="ghost" size="icon" className="h-8 w-8">
+                            <Instagram className="h-4 w-4" />
                           </Button>
                         </a>
                       
@@ -146,7 +156,7 @@ export default function EquipePage() {
                           href="https://www.instagram.com/yagokurashiki?igsh=YTJrZTk3bjAzMDNw"
                           target="_blank"
                           rel="noopener noreferrer"
-                          aria-label="Twitter de Bruno"
+                          aria-label="Instagram do Yago"
                         >
                           <Button variant="ghost" size="icon" className="h-8 w-8">
                             <Instagram className="h-4 w-4" />
@@ -164,7 +174,7 @@ export default function EquipePage() {
                     </TabsList>
                     <TabsContent value="sobre" className="pt-4">
                       <p className="text-muted-foreground">
-                        Develop, 20anos, Estudante de Desenvolvimento de Sistemas na FATEC, com foco em desenvolvimento full-stack. Atua na área de TI e busca aprimorar habilidades em Java Spring Boot e React, integrando tecnologias backend e frontend para criar soluções web eficientes e funcionais.
+                        Develop, 20 anos, Estudante de Desenvolvimento de Sistemas na FATEC, com foco em desenvolvimento full-stack. Atua na área de TI e busca aprimorar habilidades em Java Spring Boot e React, integrando tecnologias backend e frontend para criar soluções web eficientes e funcionais.
                       </p>
                       <div className="flex flex-wrap gap-2 mt-4">
                         <Badge>React</Badge>
@@ -195,50 +205,30 @@ export default function EquipePage() {
                 </CardContent>
               </Card>
 
-              {/* Matheus Mosken */}
+              {/* Kadu */}
               <Card className="overflow-hidden">
                 <CardHeader className="pb-0">
                   <div className="flex items-center gap-4">
                     <div className="relative w-24 h-24 rounded-full overflow-hidden">
                       <Image
-                        src="https://avatars.githubusercontent.com/u/69434680"
-                        alt="Foto do Matheus"
+                        src="https://avatars.githubusercontent.com/u/178843004?v=4"
+                        alt="Foto do Kadu"
                         fill
                         className="object-cover"
                       />
                     </div>
                     <div>
-                      <CardTitle className="text-2xl">Matheus Mosken</CardTitle>
-                      <CardDescription className="text-lg">Developer</CardDescription>
+                      <CardTitle className="text-2xl">Carlos Eduardo</CardTitle>
+                      <CardDescription className="text-lg">Developer Back-End</CardDescription>
                       <div className="flex gap-2 mt-2">
                         <a
-                          href="https://github.com/dieguesmosken"
+                          href="https://github.com/carlostakeshita"
                           target="_blank"
                           rel="noopener noreferrer"
-                          aria-label="GitHub de Matheus"
+                          aria-label="GitHub do Karlos"
                         >
                           <Button variant="ghost" size="icon" className="h-8 w-8">
                             <Github className="h-4 w-4" />
-                          </Button>
-                        </a>
-                        <a
-                          href="https://linkedin.com/"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          aria-label="LinkedIn de Matheus"
-                        >
-                          <Button variant="ghost" size="icon" className="h-8 w-8">
-                            <Linkedin className="h-4 w-4" />
-                          </Button>
-                        </a>
-                        <a
-                          href="https://twitter.com/dieguesmosken"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          aria-label="Twitter de Matheus"
-                        >
-                          <Button variant="ghost" size="icon" className="h-8 w-8">
-                            <Twitter className="h-4 w-4" />
                           </Button>
                         </a>
                       </div>
@@ -247,100 +237,48 @@ export default function EquipePage() {
                 </CardHeader>
                 <CardContent className="pt-6">
                   <Tabs defaultValue="sobre">
-                    <TabsList className="grid w-full grid-cols-2">
+                    <TabsList className="grid w-full grid-cols-1">
                       <TabsTrigger value="sobre">Sobre</TabsTrigger>
-                      <TabsTrigger value="projetos">Projetos</TabsTrigger>
                     </TabsList>
                     <TabsContent value="sobre" className="pt-4">
                       <p className="text-muted-foreground">
-                        Developer, 22 anos, com experiência em desenvolvimento de software e aplicativos. Habilidades em
-                        Linux, Python e React. Focado em criar soluções inovadoras e eficientes.
+                        Developer Back-End, 19 anos, um entusiasta do desenvolvimento de software focado no back-end. Atualmente, estou aprofundando meus conhecimentos na stack MERN (MongoDB, Express, React e Node.js) para criar aplicações web robustas e escaláveis.
                       </p>
                       <div className="flex flex-wrap gap-2 mt-4">
-                        <Badge>React</Badge>
-                        <Badge>Python</Badge>
-                        <Badge>Linux</Badge>
+                        <Badge>JavaScript</Badge>
+                        <Badge>MySQL</Badge>
                         <Badge>Node.js</Badge>
                         <Badge>Next.js</Badge>
                       </div>
-                    </TabsContent>
-                    <TabsContent value="projetos" className="pt-4">
-                      <Accordion type="single" collapsible className="w-full">
-                        <AccordionItem value="item-1">
-                          <AccordionTrigger>API de Análise Ambiental</AccordionTrigger>
-                          <AccordionContent>
-                            Desenvolvimento de uma API RESTful para processamento e análise de dados ambientais,
-                            utilizando Node.js e Express, com integração a serviços de machine learning para previsão de
-                            tendências.
-                            <div className="mt-2">
-                              <a href="#" className="text-sm text-primary flex items-center gap-1">
-                                Ver mais <ExternalLink className="h-3 w-3" />
-                              </a>
-                            </div>
-                          </AccordionContent>
-                        </AccordionItem>
-                        <AccordionItem value="item-2">
-                          <AccordionTrigger>Aplicativo de Monitoramento</AccordionTrigger>
-                          <AccordionContent>
-                            Criação de um aplicativo web para monitoramento em tempo real de métricas ambientais,
-                            utilizando React e WebSockets para atualizações em tempo real e visualização de dados.
-                            <div className="mt-2">
-                              <a href="#" className="text-sm text-primary flex items-center gap-1">
-                                Ver mais <ExternalLink className="h-3 w-3" />
-                              </a>
-                            </div>
-                          </AccordionContent>
-                        </AccordionItem>
-                      </Accordion>
                     </TabsContent>
                   </Tabs>
                 </CardContent>
               </Card>
 
-              {/* Ana Flávia */}
+              {/* Sthevens */}
               <Card className="overflow-hidden">
                 <CardHeader className="pb-0">
                   <div className="flex items-center gap-4">
                     <div className="relative w-24 h-24 rounded-full overflow-hidden">
                       <Image
                         src="https://avatars.githubusercontent.com/u/199160244"
-                        alt="Foto da Ana"
+                        alt="Foto do sthevens"
                         fill
                         className="object-cover"
                       />
                     </div>
                     <div>
-                      <CardTitle className="text-2xl">Ana Flávia</CardTitle>
-                      <CardDescription className="text-lg">Administradora de Redes</CardDescription>
+                      <CardTitle className="text-2xl">Sthevens Konesuk</CardTitle>
+                      <CardDescription className="text-lg">??????</CardDescription>
                       <div className="flex gap-2 mt-2">
                         <a
-                          href="https://github.com/Ana-129"
+                          href="https://github.com/sthevensmk"
                           target="_blank"
                           rel="noopener noreferrer"
-                          aria-label="GitHub de Ana"
+                          aria-label="GitHub do Sthevens"
                         >
                           <Button variant="ghost" size="icon" className="h-8 w-8">
                             <Github className="h-4 w-4" />
-                          </Button>
-                        </a>
-                        <a
-                          href="https://www.linkedin.com/in/ana-flavia-guimar%C3%A3es-gon%C3%A7alves-718a3b307/"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          aria-label="LinkedIn de Ana"
-                        >
-                          <Button variant="ghost" size="icon" className="h-8 w-8">
-                            <Linkedin className="h-4 w-4" />
-                          </Button>
-                        </a>
-                        <a
-                          href="https://twitter.com/"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          aria-label="Twitter de Ana"
-                        >
-                          <Button variant="ghost" size="icon" className="h-8 w-8">
-                            <Twitter className="h-4 w-4" />
                           </Button>
                         </a>
                       </div>
@@ -349,13 +287,12 @@ export default function EquipePage() {
                 </CardHeader>
                 <CardContent className="pt-6">
                   <Tabs defaultValue="sobre">
-                    <TabsList className="grid w-full grid-cols-2">
+                    <TabsList className="grid w-full grid-cols-1">
                       <TabsTrigger value="sobre">Sobre</TabsTrigger>
-                      <TabsTrigger value="projetos">Projetos</TabsTrigger>
                     </TabsList>
                     <TabsContent value="sobre" className="pt-4">
                       <p className="text-muted-foreground">
-                        Administradora de redes, 19 anos, com experiência na segurança, infraestrutura, administração
+                        ??????, 19 anos, com experiência na segurança, infraestrutura, administração
                         das redes, configuração de servidores e monitoramento de servidores.
                       </p>
                       <div className="flex flex-wrap gap-2 mt-4">
@@ -365,36 +302,6 @@ export default function EquipePage() {
                         <Badge>Cloud</Badge>
                         <Badge>Docker</Badge>
                       </div>
-                    </TabsContent>
-                    <TabsContent value="projetos" className="pt-4">
-                      <Accordion type="single" collapsible className="w-full">
-                        <AccordionItem value="item-1">
-                          <AccordionTrigger>Infraestrutura em Nuvem</AccordionTrigger>
-                          <AccordionContent>
-                            Implementação de infraestrutura em nuvem para aplicações de monitoramento ambiental,
-                            utilizando Docker e Kubernetes para orquestração de contêineres e garantindo alta
-                            disponibilidade e escalabilidade.
-                            <div className="mt-2">
-                              <a href="#" className="text-sm text-primary flex items-center gap-1">
-                                Ver mais <ExternalLink className="h-3 w-3" />
-                              </a>
-                            </div>
-                          </AccordionContent>
-                        </AccordionItem>
-                        <AccordionItem value="item-2">
-                          <AccordionTrigger>Segurança de Dados Sensíveis</AccordionTrigger>
-                          <AccordionContent>
-                            Desenvolvimento e implementação de políticas de segurança para proteção de dados sensíveis
-                            em sistemas de monitoramento ambiental, incluindo criptografia, autenticação multifator e
-                            auditorias de segurança.
-                            <div className="mt-2">
-                              <a href="#" className="text-sm text-primary flex items-center gap-1">
-                                Ver mais <ExternalLink className="h-3 w-3" />
-                              </a>
-                            </div>
-                          </AccordionContent>
-                        </AccordionItem>
-                      </Accordion>
                     </TabsContent>
                   </Tabs>
                 </CardContent>
