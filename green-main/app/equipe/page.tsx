@@ -261,7 +261,7 @@ export default function EquipePage() {
                   <div className="flex items-center gap-4">
                     <div className="relative w-24 h-24 rounded-full overflow-hidden">
                       <Image
-                        src="https://avatars.githubusercontent.com/u/199160244"
+                        src="https://avatars.githubusercontent.com/u/128431254?v=4"
                         alt="Foto do sthevens"
                         fill
                         className="object-cover"
