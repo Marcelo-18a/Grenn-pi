@@ -58,7 +58,7 @@ export default function EquipePage() {
                     </div>
                     <div>
                       <CardTitle className="text-2xl">Marcelo Augusto</CardTitle>
-                      <CardDescription className="text-lg">Develop, Design</CardDescription>
+                      <CardDescription className="text-lg">Developer, Design</CardDescription>
                       <div className="flex gap-2 mt-2">
                         <a
                           href="https://github.com/Marcelo-18a"
@@ -130,7 +130,7 @@ export default function EquipePage() {
                     </div>
                     <div>
                       <CardTitle className="text-2xl">Yago Kurashiki</CardTitle>
-                      <CardDescription className="text-lg">Develop</CardDescription>
+                      <CardDescription className="text-lg">Developer</CardDescription>
                       <div className="flex gap-2 mt-2">
                         <a
                           href="https://github.com/Yajoojj"
@@ -174,7 +174,7 @@ export default function EquipePage() {
                     </TabsList>
                     <TabsContent value="sobre" className="pt-4">
                       <p className="text-muted-foreground">
-                        Develop, 20 anos, Estudante de Desenvolvimento de Sistemas na FATEC, com foco em desenvolvimento full-stack. Atua na área de TI e busca aprimorar habilidades em Java Spring Boot e React, integrando tecnologias backend e frontend para criar soluções web eficientes e funcionais.
+                        Develop, 19 anos, Estudante de Desenvolvimento de Sistemas na FATEC, com foco em desenvolvimento full-stack. Atua na área de TI e busca aprimorar habilidades em Java Spring Boot e React, integrando tecnologias backend e frontend para criar soluções web eficientes e funcionais.
                       </p>
                       <div className="flex flex-wrap gap-2 mt-4">
                         <Badge>React</Badge>
@@ -269,7 +269,7 @@ export default function EquipePage() {
                     </div>
                     <div>
                       <CardTitle className="text-2xl">Sthevens Konesuk</CardTitle>
-                      <CardDescription className="text-lg">??????</CardDescription>
+                      <CardDescription className="text-lg">Developer Back-End</CardDescription>
                       <div className="flex gap-2 mt-2">
                         <a
                           href="https://github.com/sthevensmk"
@@ -292,7 +292,7 @@ export default function EquipePage() {
                     </TabsList>
                     <TabsContent value="sobre" className="pt-4">
                       <p className="text-muted-foreground">
-                        ??????, 19 anos, com experiência na segurança, infraestrutura, administração
+                        Develop Back-End, 20 anos, com experiência na segurança, infraestrutura, administração
                         das redes, configuração de servidores e monitoramento de servidores.
                       </p>
                       <div className="flex flex-wrap gap-2 mt-4">
